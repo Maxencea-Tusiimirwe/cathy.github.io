@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: linear-gradient(to right,rgb(2, 26, 0,0.8)20%,rgba(0,0,0,0.5)80%),url(forest1.jpeg);
+    width: 100%;
+    height: 120vh;
+}
+
+.name{
+    color: aliceblue;
+    font-size: 400%;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    font-family: 'Lucida Sans';
+    color: pink;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.4)40%,rgba(245, 249, 2, 0.4)80%);
+}
+
+.name p{
+    width: 800px;
+}
+
+.pro{
+    position: absolute;
+    left: 850px;
+    top: 10px;
+    border: 5px solid purple;
+    padding: 5px;
+
+}
+
+.about{
+    color: white;
+    font-family: 'comic sans';
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    height: 350px;
+
+}
+
+.about h1{
+    color: yellow;
+}
+
+.about ul{
+    list-style: none;
+    line-height: 30px;
+}
+
+.images{
+    color: aliceblue;
+    width: 480px;
+    height:300px ;
+    border: 5px solid rgb(255, 238, 152);
+    position: absolute;
+    left:500px;
+    top: 200px;
+}
+
+.images h2{
+    padding: 10px;
+    background-color: rgba(0, 32, 0, 0.8);
+}
+
+.images img{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.contacts{
+    display: grid;
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(2, 2, 61,0.5);
+}
+
+.contacts ul{
+    list-style: none;
+
+}
+
+.contacts h3{
+    color: aqua;
+}
